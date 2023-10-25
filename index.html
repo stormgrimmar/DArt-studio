@@ -249,13 +249,19 @@
             <div class="gallery__top_left">
               <div class="gallery-video">
                 <video
+                  class="video-item"
+                  width="320"
+                  height="240"
+                  controls="controls"
+                  controls
+                  preload="auto"
+                  autoplay="autoplay"
+                  loop
                   muted
                   playsinline
-                  autoplay
-                  loop
-                  class="video-item"
-                  src="videos/gallery-video.webm"
-                ></video>
+                >
+                  <source src="videos/gallery-video.webm" type="video/webm" />
+                </video>
               </div>
             </div>
             <div class="gallery__top_right">
